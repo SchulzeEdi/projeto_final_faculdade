@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="includes/css/stylesUser.css" media="screen"/>
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <h1>Bem vindo ao WebSchulze</h1>
+    <h3>um site de cadastro intuitivo</h3>
+    <h2>Realize seu login</h2>
+    <form action="includes/ProcessaLogin.php" method="POST">
+      <label for="nome">Nome Completo:</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <button type="submit">Entrar</button>
+      <a href="includes/html/registerUserForm.html" class="signup-button">Cadastrar</a>
+    </form>
+  </div>
+</body>
+</html>
